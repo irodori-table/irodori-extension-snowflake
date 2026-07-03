@@ -3,7 +3,7 @@
   "manifestVersion": 1,
   "id": "irodori.snowflake",
   "name": "Snowflake Connector",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "irodori",
   "description": "Snowflake Connector contributes the Snowflake database connector through the native connector ABI.",
   "license": "MIT OR 0BSD",
@@ -273,6 +273,39 @@
               ]
             },
             {
+              "id": "accessToken",
+              "label": "Access token",
+              "kind": "token",
+              "secretPurposes": [
+                "token"
+              ],
+              "fields": [
+                {
+                  "id": "token",
+                  "label": "Token",
+                  "type": "secret",
+                  "secretPurpose": "token"
+                }
+              ]
+            },
+            {
+              "id": "snowflakeProgrammaticAccessToken",
+              "label": "Programmatic access token",
+              "kind": "token",
+              "secretPurposes": [
+                "token"
+              ],
+              "fields": [
+                {
+                  "id": "token",
+                  "label": "Programmatic access token",
+                  "type": "secret",
+                  "secretPurpose": "token",
+                  "required": true
+                }
+              ]
+            },
+            {
               "id": "snowflakeSessionToken",
               "label": "Session token",
               "kind": "token",
@@ -283,6 +316,28 @@
                 {
                   "id": "token",
                   "label": "Token",
+                  "type": "secret",
+                  "secretPurpose": "token"
+                }
+              ]
+            },
+            {
+              "id": "snowflakeWorkloadIdentity",
+              "label": "Workload identity federation",
+              "kind": "iam",
+              "secretPurposes": [
+                "token"
+              ],
+              "fields": [
+                {
+                  "id": "issuer",
+                  "label": "Issuer",
+                  "type": "string",
+                  "option": "issuer"
+                },
+                {
+                  "id": "subjectToken",
+                  "label": "Subject token",
                   "type": "secret",
                   "secretPurpose": "token"
                 }
