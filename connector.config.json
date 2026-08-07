@@ -1011,7 +1011,7 @@
   },
   "source": {
     "marketplaceId": "irodori.snowflake",
-    "repository": "https://github.com/hjosugi/irodori-extension-snowflake",
+    "repository": "https://github.com/irodori-table/irodori-extension-snowflake",
     "knowledgeEngineStatus": "wired",
     "adapter": "db/snowflake.rs",
     "adapterSha256": "cb9c693f090832d6d91b4dca176495e446ff7b436247d71692539e27f6493a5c",
