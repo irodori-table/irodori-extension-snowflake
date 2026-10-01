@@ -72,9 +72,6 @@
       "snowflakeProgrammaticAccessToken",
       "snowflakeSessionToken",
       "snowflakeWorkloadIdentity",
-      "browserSso",
-      "saml",
-      "externalBrowser",
       "customDriverOptions"
     ],
     "tls": "required",

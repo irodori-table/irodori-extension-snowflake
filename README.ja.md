@@ -55,9 +55,6 @@ Rust クレートは `src/lib.rs` からネイティブ ABI をエクスポー�
 | `snowflakeProgrammaticAccessToken` | プログラム的アクセストークン | `token` | `token` |
 | `snowflakeSessionToken` | セッショントークン | `token` | `token` |
 | `snowflakeWorkloadIdentity` | ワークロードアイデンティティフェデレーション | `iam` | `token` |
-| `browserSso` | ブラウザ SSO | `browserSso` | `token` |
-| `saml` | SAML SSO | `saml` | `token` |
-| `externalBrowser` | 外部ブラウザ | `browserSso` | `token` |
 | `customDriverOptions` | カスタムドライバオプション | `custom` | `password`, `token`, `privateKey`, `privateKeyPassphrase` |
 
 ## エクスペリエンスメタデータ

@@ -313,45 +313,6 @@
           ]
         },
         {
-          "id": "browserSso",
-          "label": "Browser SSO",
-          "kind": "browserSso",
-          "secretPurposes": [
-            "token"
-          ],
-          "fields": []
-        },
-        {
-          "id": "saml",
-          "label": "SAML SSO",
-          "kind": "saml",
-          "secretPurposes": [
-            "token"
-          ],
-          "fields": [
-            {
-              "id": "idpUrl",
-              "label": "Identity provider URL",
-              "type": "uri"
-            },
-            {
-              "id": "assertion",
-              "label": "SAML assertion",
-              "type": "secret",
-              "secretPurpose": "token"
-            }
-          ]
-        },
-        {
-          "id": "externalBrowser",
-          "label": "External browser",
-          "kind": "browserSso",
-          "secretPurposes": [
-            "token"
-          ],
-          "fields": []
-        },
-        {
           "id": "customDriverOptions",
           "label": "Custom driver options",
           "kind": "custom",
@@ -1382,45 +1343,6 @@
             "secretPurpose": "token"
           }
         ]
-      },
-      {
-        "id": "browserSso",
-        "label": "Browser SSO",
-        "kind": "browserSso",
-        "secretPurposes": [
-          "token"
-        ],
-        "fields": []
-      },
-      {
-        "id": "saml",
-        "label": "SAML SSO",
-        "kind": "saml",
-        "secretPurposes": [
-          "token"
-        ],
-        "fields": [
-          {
-            "id": "idpUrl",
-            "label": "Identity provider URL",
-            "type": "uri"
-          },
-          {
-            "id": "assertion",
-            "label": "SAML assertion",
-            "type": "secret",
-            "secretPurpose": "token"
-          }
-        ]
-      },
-      {
-        "id": "externalBrowser",
-        "label": "External browser",
-        "kind": "browserSso",
-        "secretPurposes": [
-          "token"
-        ],
-        "fields": []
       },
       {
         "id": "customDriverOptions",
