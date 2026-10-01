@@ -1,6 +1,3 @@
-<!-- i18n: language-switcher -->
-[English](README.md) | [日本語](README.ja.md)
-
 # Snowflake Connector
 
 Native Irodori Table connector extension for Snowflake.
@@ -16,7 +13,7 @@ This crate packages the connector metadata, native ABI exports, and driver imple
 - Native ABI: `irodori.connector.native.v1`
 - Driver linked: `yes`
 - Marketplace visibility: `public`
-- Package version: `0.1.4`
+- Package version: `0.1.6`
 
 The package includes a desktop adapter source snapshot from `db/snowflake.rs`.
 
@@ -54,9 +51,6 @@ The connector advertises these authentication modes so clients can render the ri
 | `snowflakeProgrammaticAccessToken` | Programmatic access token | `token` | `token` |
 | `snowflakeSessionToken` | Session token | `token` | `token` |
 | `snowflakeWorkloadIdentity` | Workload identity federation | `iam` | `token` |
-| `browserSso` | Browser SSO | `browserSso` | `token` |
-| `saml` | SAML SSO | `saml` | `token` |
-| `externalBrowser` | External browser | `browserSso` | `token` |
 | `customDriverOptions` | Custom driver options | `custom` | `password`, `token`, `privateKey`, `privateKeyPassphrase` |
 
 ## Experience Metadata
@@ -139,7 +133,3 @@ make build
 ```
 
 Release packages place platform-specific native artifacts under `dist/native`.
-
-## License
-
-0BSD. You can use, copy, modify, and distribute this project for almost any purpose.
