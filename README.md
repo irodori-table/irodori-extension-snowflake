@@ -54,9 +54,6 @@ The connector advertises these authentication modes so clients can render the ri
 | `snowflakeProgrammaticAccessToken` | Programmatic access token | `token` | `token` |
 | `snowflakeSessionToken` | Session token | `token` | `token` |
 | `snowflakeWorkloadIdentity` | Workload identity federation | `iam` | `token` |
-| `browserSso` | Browser SSO | `browserSso` | `token` |
-| `saml` | SAML SSO | `saml` | `token` |
-| `externalBrowser` | External browser | `browserSso` | `token` |
 | `customDriverOptions` | Custom driver options | `custom` | `password`, `token`, `privateKey`, `privateKeyPassphrase` |
 
 ## Experience Metadata
